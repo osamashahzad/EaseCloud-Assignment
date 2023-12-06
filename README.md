@@ -14,3 +14,4 @@
 - When your infrastructure is completely deployed, verify the application by hitting the load balancer url.
 - In order to test your application using postman, enter the url of your load balancer and select the GET method. In the responses if it returns the **200 OK response** in status then your application is working fine as in the my case.
 
+### For reference I have also added a picture of the API response using Postman and also the API output.
