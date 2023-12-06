@@ -14,6 +14,6 @@
 - After changing it run the command **terraform apply -var-file ../envs/prod.tfvars**
 - When your infrastructure is completely deployed, verify the application by hitting the load balancer url.
 - In order to test your application using postman, enter the url of your load balancer and select the GET method. In the responses if it returns the **200 OK response** in status then your application is working fine as in the my case.
-- If you want to completely erase the whole infrastructure, then run the command **rraform destroy -var-file ../envs/prod.tfvars**. This command will take a few moments and will delete the complete infrastructure that we just deployed.
+- If you want to completely erase the whole infrastructure, then run the command **terraform destroy -var-file ../envs/prod.tfvars**. This command will take a few moments and will delete the complete infrastructure that we just deployed.
 
-### For reference I have also added a picture of the API response using Postman and also the API output.
+#### For reference I have also added a picture of the API response using Postman and also the API output.
